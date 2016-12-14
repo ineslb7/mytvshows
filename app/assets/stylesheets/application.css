@@ -1,8 +1,4 @@
-
-title {
-	text-align: center;
-	height: 50px;
-	width: 120px;
-	border-color: #6495ED;
-    background-color: #BCD2EE;
+body {
+	padding-top: 60px;
+	color: #900C3F;
 }

@@ -20,5 +20,10 @@
   <%= @tv_show.duration %>
 </p>
 
+<p>
+  <strong>Picture:</strong>
+ <%= image_tag(@tv_show.picture_url, :width => 600) if @tv_show.picture.present? %>
+</p>
+
 <%= link_to 'Edit', edit_tv_show_path(@tv_show) %> |
 <%= link_to 'Back', tv_shows_path %>
