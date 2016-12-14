@@ -3,22 +3,24 @@ h1 {
 	font-family: marguerite, verdana;
 	text-align: center;
 	border-radius: 2px;
-	border: 1px solid #581845;
+	border: 2px solid #581845;
 	background-color: #900C3F;
-	height: 18px;
+	height: 25px;
 
 }
 
 thead {
+	padding-top: 60px;
 	color: #900C3F;
-	font-family: verdana;
+	font-family: roboto, helvetica, verdana;
 	text-align: center;
 
 }
 
-tbody {
+tbody a {
 	padding-top: 60px;
 	color: black;
-	font-family: verdana;
+	font-family: roboto, helvetica, verdana;
+	text-align: justify;
 
 }
