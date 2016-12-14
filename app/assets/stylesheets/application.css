@@ -1,7 +1,24 @@
-body {
-	padding-top: 60px;
+h1 {
+	color: white;
+	font-family: marguerite, verdana;
+	text-align: center;
+	border-radius: 2px;
+	border: 1px solid #581845;
+	background-color: #900C3F;
+	height: 18px;
+
+}
+
+thead {
 	color: #900C3F;
 	font-family: verdana;
 	text-align: center;
-	
+
+}
+
+tbody {
+	padding-top: 60px;
+	color: black;
+	font-family: verdana;
+
 }
