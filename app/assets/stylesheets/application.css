@@ -1,11 +1,15 @@
+body {
+	background-color: #F4F6F7;
+}
+
 h1 {
 	color: white;
-	font-family: marguerite, verdana;
+	font-family: marguerite, helvetica, verdana;
 	text-align: center;
 	border-radius: 2px;
 	border: 2px solid #581845;
 	background-color: #900C3F;
-	height: 25px;
+	height: 50px;
 
 }
 
@@ -17,10 +21,22 @@ thead {
 
 }
 
-tbody a {
-	padding-top: 60px;
+tbody {
+	padding-top: 40px;
 	color: black;
 	font-family: roboto, helvetica, verdana;
 	text-align: justify;
+
+}
+
+a {
+	padding-top: 30px;
+	color: black;
+	font-family: roboto, helvetica, verdana;
+
+}
+
+tr {
+	padding-top: 30px;
 
 }
